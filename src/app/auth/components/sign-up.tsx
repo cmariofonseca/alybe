@@ -55,7 +55,7 @@ export default function SignUp() {
         setLoading(false);
       }
     },
-    [email, password, repeatPassword, router]
+    [email, password, repeatPassword, passwordsMatch, router]
   );
 
   return (
